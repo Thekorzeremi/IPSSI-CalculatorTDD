@@ -1,0 +1,32 @@
+{
+  "name": "ipssi-calculatortdd",
+  "version": "1.0.0",
+  "description": "Calculatrice développée avec une approche TDD (Test Driven Development)",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest",
+    "test:watch": "cross-env NODE_OPTIONS=--experimental-vm-modules jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Thekorzeremi/IPSSI-CalculatorTDD.git"
+  },
+  "keywords": [
+    "calculator",
+    "TDD",
+    "jest",
+    "IPSSI",
+    "test-driven-development"
+  ],
+  "author": "Rémi Korzeniowski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thekorzeremi/IPSSI-CalculatorTDD/issues"
+  },
+  "homepage": "https://github.com/Thekorzeremi/IPSSI-CalculatorTDD#readme",
+  "devDependencies": {
+    "cross-env": "^10.0.0",
+    "jest": "^30.0.5"
+  }
+}
